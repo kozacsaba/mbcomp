@@ -12,9 +12,10 @@
 
 #define _USE_MATH_DEFINES
 
-#include<JuceHeader.h>
-#include<cmath>
-#include"math.h"
+#include <juce_core/juce_core.h>
+#include <juce_audio_basics/juce_audio_basics.h>
+#include <cmath>
+#include "math.h"
 
 class Allpass {
 public:
