@@ -13,9 +13,9 @@
 #define RMS_A_TIME 5
 #define RMS_R_TIME 130
 
-#include<JuceHeader.h>
-#include"CircularBuffer.h"
-#include"math.h"
+#include <juce_audio_basics/juce_audio_basics.h>
+#include "CircularBuffer.h"
+#include "math.h"
 
 class Compressor {
 public:

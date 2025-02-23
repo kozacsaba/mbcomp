@@ -14,7 +14,7 @@
 MBComp01AudioProcessorEditor::MBComp01AudioProcessorEditor (MBComp01AudioProcessor& p)
     : AudioProcessorEditor (&p), audioProcessor (p), body(p)
 {
-    head.setText(juce::String("Multi-Comp by Koza"));
+    head.setText(HEADER_TEXT);
     addAndMakeVisible(head);
     addAndMakeVisible(body);
 
