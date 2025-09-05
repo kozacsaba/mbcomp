@@ -8,9 +8,11 @@
 
 #pragma once
 
-#include <JuceHeader.h>
-#include "Compressor.h"
-#include "Allpass.h"
+#include <juce_core/juce_core.h>
+#include <juce_gui_basics/juce_gui_basics.h>
+#include <juce_audio_processors/juce_audio_processors.h>
+#include "processors/Compressor.h"
+#include "processors/Allpass.h"
 
 //==============================================================================
 /**

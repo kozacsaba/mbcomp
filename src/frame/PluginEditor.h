@@ -8,7 +8,7 @@
 
 #pragma once
 
-#include <JuceHeader.h>
+#include <juce_gui_basics/juce_gui_basics.h>
 #include "PluginProcessor.h"
 #include "EditorComponent.h"
 
@@ -17,6 +17,8 @@
 */
 class MBComp01AudioProcessorEditor  : public juce::AudioProcessorEditor
 {
+juce::String HEADER_TEXT = "Multi-Comp by Koza";
+
 public:
     MBComp01AudioProcessorEditor (MBComp01AudioProcessor&);
     ~MBComp01AudioProcessorEditor() override;
